@@ -1,0 +1,69 @@
+.profile-card {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    background-color: #fff;
+  }
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  .username {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .bio {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .stat {
+    text-align: center;
+  }
+  .stat h6 {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .stat p {
+    margin: 0;
+    color: #777;
+  }
+.profile-card .header{
+    display: flex;
+    justify-content: space-between;
+}
+.profile-card .header .logo{
+     
+    font-size: 25px;
+}
+.profile-card .header .logo2{
+    font-size: 25px;
+}
+.footer{
+    display: flex;
+    column-gap: 10px;
+}
+.footer .btn1,.btn2{
+    padding: 5px 35px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    border: none;
+    text-decoration: none;
+}
+.footer .btn1,.btn3{
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
